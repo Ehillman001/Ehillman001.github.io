@@ -1,1 +1,14 @@
-
+.bg { background-color: lightgrey; }
+.underline { text-decoration: underline; }
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+p.italic {
+  font-style: italic;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
