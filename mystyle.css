@@ -1,13 +1,14 @@
-body { background-color: lightgrey; }
+body { background-color: lightgrey;
+}
 h1 { text-decoration: underline;
       text-align:center;
 }
-.serif {
+p {
   font-family: "Times New Roman", Times, serif;
+      text-align:center;
+      font-style: italic;
 }
-p.italic {
-  font-style: italic;
-}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
