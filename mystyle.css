@@ -1,5 +1,7 @@
-.bg { background-color: lightgrey; }
-.underline { text-decoration: underline; }
+body { background-color: lightgrey; }
+h1 { text-decoration: underline;
+      text-align:center;
+}
 .serif {
   font-family: "Times New Roman", Times, serif;
 }
