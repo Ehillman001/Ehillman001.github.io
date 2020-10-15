@@ -20,7 +20,12 @@ body { background-color: lightgrey;
   font-family: "Times New Roman", Times, serif;
       text-align:left;
 }
+.ressubp
 .subh {
+  font-family: "Times New Roman", Times, serif;
+      text-align:left;
+      text-style:bold;
+}
   font-family: "Times New Roman", Times, serif;
       text-align:center;
       font-style: italic;
