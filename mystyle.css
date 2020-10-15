@@ -7,7 +7,8 @@ body { background-color: lightgrey;
 }
 
 .resh { text-decoration: underline;
-      text-align:left;     
+      text-align:left;  
+      font-style:bold;
 }
 /* adapted from https://www.w3schools.com/css/css_font.asp */
 .coverp {
