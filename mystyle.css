@@ -11,6 +11,11 @@ p {
       text-align:left;
       font-style: italic;
 }
+subh {
+  font-family: "Times New Roman", Times, serif;
+      text-align:center;
+      font-style: italic;
+}
 
 div.gallery {
   margin: 5px;
