@@ -2,18 +2,22 @@
 body { background-color: lightgrey;
 }
 /* adapted from https://www.w3schools.com/css/css_text_decoration.asp */
-h1 { text-decoration: underline;
+.coverh1 { text-decoration: underline;
       text-align:center;
 }
 
-.heading { text-decoration: underline;
+.resh { text-decoration: underline;
       text-align:left;     
 }
 /* adapted from https://www.w3schools.com/css/css_font.asp */
-p {
+.coverp {
   font-family: "Times New Roman", Times, serif;
       text-align:left;
       font-style: italic;
+}
+.resp {
+  font-family: "Times New Roman", Times, serif;
+      text-align:left;
 }
 .subh {
   font-family: "Times New Roman", Times, serif;
