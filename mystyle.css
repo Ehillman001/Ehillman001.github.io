@@ -18,9 +18,10 @@
   font-family: "Times New Roman", Times, serif;
       text-align:left;
       font-style: italic;
-      margin: 25px 100px 1px 10px;
+      margin: 25px 100px 100px 100px;
       border: 1px solid black;
       background-color: white;
+      line-height:1.8;
   
       
 }
@@ -44,7 +45,6 @@
 }
 /*Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
 .navbar{
-      head{
       ul {
   list-style-type: none;
   margin: 0;
@@ -65,20 +65,12 @@ li a {
 li a:hover {
   background-color: black;
 }
-      }
-      body{
-<ul>
-  <li><a class="active" href="/index.html">Cover Letter</a></li>
-  <li><a href="/resume.html">Resume</a></li>
-  <li><a href="/dog.html">Dog Gallery</a></li>
-</ul>
-      }
 }
 .dogtext {
       font-family: "Arial Black", Gadget, sans-serif;
       color:Red;
       font-style:bold;
-      align:center;
+      text-align:center;
 }
 /* Adapted from https://www.w3schools.com/cssref/css_animatable.asp*/
 
@@ -89,7 +81,6 @@ li a:hover {
       @keyframes mymove {
   from {background-color: blue;}
   to {background-color: green;}
-  to {background-color: yellow;}
 }
 }
 
