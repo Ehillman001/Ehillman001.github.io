@@ -1,5 +1,5 @@
 /*adapted from https://www.w3schools.com/css/css_colors.asp */
-bodynormal { background-color: lightgrey;
+.bodynormal { background-color: lightgrey;
 }
 /* adapted from https://www.w3schools.com/css/css_text_decoration.asp */
 .coverh1 { text-decoration: underline;
