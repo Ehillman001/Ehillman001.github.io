@@ -43,18 +43,19 @@
       font-style: italic;
       background-color:white;
 }
+
 /*Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
-.navbar{
-      ul {
+ul{
   list-style-type: none;
-  margin: 0;
+  margin: 5;
   padding: 0;
   overflow: hidden;
-  background-color: lightgrey;
+  background-color: black;        
 }
 li {
   float: left;
 }
+
 li a {
   display: block;
   color: white;
@@ -62,9 +63,13 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover {
-  background-color: black;
+
+li a:hover:not(.active) {
+  background-color: #111;
 }
+
+.active {
+  background-color: #4CAF50;
 }
 .dogtext {
       font-family: "Arial Black", Gadget, sans-serif;
