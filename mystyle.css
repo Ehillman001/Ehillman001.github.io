@@ -45,14 +45,14 @@
 }
 
 /*Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
-ul{
+.navul{
   list-style-type: none;
   margin: 5;
   padding: 10;
   overflow: hidden;
   background-color: white;        
 }
-li {
+.navli {
   float: left;
 }
 
