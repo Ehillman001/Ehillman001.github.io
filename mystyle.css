@@ -48,9 +48,9 @@
 ul{
   list-style-type: none;
   margin: 5;
-  padding: 0;
+  padding: 10;
   overflow: hidden;
-  background-color: black;        
+  background-color: white;        
 }
 li {
   float: left;
@@ -65,11 +65,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: grey;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: black;
 }
 .dogtext {
       font-family: "Arial Black", Gadget, sans-serif;
