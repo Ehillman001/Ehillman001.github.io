@@ -101,17 +101,7 @@ th {
   background-color: #4CAF50;
   color: white;
 }
-/* Adapted from https://www.w3schools.com/cssref/css_animatable.asp*/
 
-.dogbck {{
-      background:blue;
-       animation: mymove 10s infinite;
-      }
-      @keyframes mymove {
-  from {background-color: blue;}
-  to {background-color: green;}
-}
-}
 
 /*Adapted from https://www.w3schools.com/css/css_image_gallery.asp */
 div.gallery {
