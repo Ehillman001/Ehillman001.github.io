@@ -45,6 +45,7 @@
 }
 
 /*Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+/*code for formatting a navigation bar*/
 .navul{
   list-style-type: none;
   margin: 5;
@@ -78,6 +79,7 @@ li a:hover:not(.active) {
       text-align:center;
 }
 /*Adapted from https://www.w3schools.com/css/tryit.asp?filename=trycss_table_color*/
+/*code for formatting references table */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -110,10 +112,23 @@ th {
 }
 }
 
-
+/*Adapted from https://www.w3schools.com/css/css_image_gallery.asp */
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+  margin: 10px;
+  border: 1px solid black;
   float: left;
-  width: 180px;
+  width: 200px;
+}
+div.gallery:hover {
+  border: 5px solid blue;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
 }
